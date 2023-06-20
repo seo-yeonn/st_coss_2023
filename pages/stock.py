@@ -47,4 +47,3 @@ if "거래량" in selected_chart:
    st.write("## 거래량")
    px_volumne = px.bar(tickerDf[["Volume"]])
    px_volumne
-
